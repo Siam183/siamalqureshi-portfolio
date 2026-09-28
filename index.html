@@ -112,7 +112,7 @@ footer h2{font-size:clamp(30px,5vw,50px);margin-bottom:14px}footer p{color:var(-
       <a class="btn" href="#contact">Get in touch</a>
     </div>
   </div>
-  <div class="pic"><img src="assets/portrait2.jpg" alt="Portrait of Siam Al Qureshi" width="520"><div class="tag">Best model<b>91.69% DNN</b></div></div>
+  <div class="pic"><img src="assets/portrait3.jpg" alt="Portrait of Siam Al Qureshi" width="520"><div class="tag">Best model<b>91.69% DNN</b></div></div>
 </section>
 
 <section class="wrap" style="padding-top:24px"><div class="stats rv">
@@ -218,7 +218,7 @@ for(var i=0;i<=80;i++){var t=i/80;p.push((t*1000).toFixed(1)+','+(45-Math.sin(Ma
 w.setAttribute('d','M'+p.join('L'));var L=w.getTotalLength();w.style.cssText='stroke-dasharray:'+L+';stroke-dashoffset:'+L+';transition:stroke-dashoffset 2.2s ease';
 requestAnimationFrame(function(){requestAnimationFrame(function(){w.style.strokeDashoffset=0})});
 // typed roles
-var R=['ML engineer','Full-stack developer','Data scientist','Streamlit app builder'],ri=0,ci=0,del=false,el=document.getElementById('typed');
+var R=['ML engineer','Full-stack developer','Data scientist','Data Analyst', 'Software Developer'],ri=0,ci=0,del=false,el=document.getElementById('typed');
 (function tick(){var s=R[ri];ci+=del?-1:1;el.textContent=s.slice(0,ci);var d=del?35:75;
  if(!del&&ci==s.length){del=true;d=1400}else if(del&&ci==0){del=false;ri=(ri+1)%R.length;d=300}setTimeout(tick,d)})();
 // reveal, meters, counters
